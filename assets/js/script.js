@@ -1,6 +1,7 @@
 // console.log("JavaScript işləyir");
 
-// let n = 21;
+//task 1
+// Verilmiş n ədədinin 3-ə və 7-yə bölünüb-bölünmədiyini tapın.let n = 21;
 
 // if (n % 3 === 0 && n % 7 === 0) {
 //     console.log("n 3 və 7-ə bölünür");
@@ -10,7 +11,8 @@
 // }
 
 
-
+//task 2
+// Verilmiş n və m ədədləri arasında neçə tək ədəd olduğunu tapın.
 
 // let n = 5;
 // let m = 15;
@@ -27,7 +29,8 @@
 
 
 
-
+//task 3
+// Verilmiş n və m ədədləri arasında neçə cüt ədəd olduğunu tapın.
 
 // let n = 2;
 // let m = 10;
@@ -43,7 +46,8 @@
 
 
 
-
+//task 4
+// Verilmiş n ədədinin sadə və ya mürəkkəb olduğunu tapın.
 
 // let n = 7;
 // let count = 0;
@@ -61,6 +65,9 @@
 
 
 
+//task 5
+//Verilmiş array-in içindəki cüt ədədlərin cəmini tapın.
+
 
 // let numbers = [1, 2, 3, 4, 5, 6];
 // let sum = 0;
@@ -73,6 +80,9 @@
 
 // console.log(`Cüt ədədlərin cəmi: ${sum}`);
 
+
+//task 6
+// Verilmiş array-in içindəki ən böyük və ən kiçik ədədi tapın.
 
 // let numbers = [5, 2, 9, 1, 7];
 
@@ -90,6 +100,12 @@
 
 // console.log(`Ən böyük ədəd: ${max}`);
 // console.log(`Ən kiçik ədəd: ${min}`);
+
+
+
+
+//task 7
+// Verilmiş array-in içindəki müsbət, mənfi və sıfır ədədlərin sayını tapın.
 
 
 // let numbers = [-2, 5, 0, -1, 8, 0, 3];
@@ -113,7 +129,8 @@
 // console.log(`Sıfır: ${zero}`);
 
 
-
+//task 8
+//Verilmiş array-də müəyyən bir ədədin neçə dəfə təkrarlandığını tapın.
 
 // let numbers = [1, 3, 5, 3, 7, 3];
 // let tekrarlana = 3;
@@ -128,7 +145,8 @@
 // console.log(`Təkrarlanan ədəd: ${tekrarlana}, Sayı: ${count}`);
 
 
-
+//task 9
+//Verilmiş array-in elementlərini tərsinə çevirilmiş formada göstərin.
 
 
 // let numbers = [1, 2, 3, 4, 5];
@@ -143,6 +161,11 @@
 
 
 
+//task 10
+// Verilmiş n ədədinin rəqəmlərinin cəmini tapın.
+
+
+
 // let n = 1234;
 // let sum = 0;
 
@@ -154,7 +177,8 @@
 // console.log(`Reqemlerin cəmi: ${sum}`);
 
 
-
+//task 11
+// Verilmiş n ədədinin palindrom olub-olmadığını tapın.
 
 
 
@@ -174,6 +198,11 @@
 // }
 
 
+//task 12
+//Student məlumatlarını saxlayan bir obyekt yaradın. 
+// Obyektdə name, age, group və score məlumatları olsun. 
+// Bütün məlumatları console-a çıxarın.
+
 
 
 // let student = {
@@ -188,7 +217,10 @@
 // console.log(student.score);
 
 
-
+//task 13
+//Student obyektinin score məlumatına əsasən, 
+//studentin imtahandan keçib-keçmədiyini tapın. 
+//Əgər score 51-dən böyük və ya bərabərdirsə, "Passed", əks halda "Failed" yazdırın.
 
 
 
@@ -206,7 +238,9 @@
 // }
 
 
-
+//task 14
+// Bir neçə student obyektindən ibarət array yaradın 
+// və score-u 80-dən yuxarı olan studentləri tapın.
 
 
 
@@ -237,10 +271,13 @@
 //     if (students[i].score >= 80) {
 //         console.log(`Student: ${students[i].name}`);
 //     }
-
 // }
 
 
+
+//task 15
+// Məhsullardan ibarət array yaradın. Hər məhsulda name və 
+// price məlumatları olsun. Ən bahalı məhsulu tapın.
 
 
 
